@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(166, 172, 238);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+.cardbox {
+   
+    align-items: center; /* Center vertically */
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto; /* Center horizontally */
+    width: fit-content;
+}
+.FlexCardBox{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+.profileImage {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
