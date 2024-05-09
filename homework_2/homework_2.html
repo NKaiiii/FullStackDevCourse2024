@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+    <link rel="stylesheet" href="homework_2.css">
+    <script src="homework_2.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body style="font-family: 'Noto Sans Thai';">
+    <div class="quiz-container">
+        <h1></h1>
+        <p id="question">PIM ย่อมาจากอะไร ?</p>
+        <button class="button" onclick="checkAnswer('a')">A) พีไอเอ็ม</button>
+        <button class="button" onclick="checkAnswer('b')">B) ปิ๋ม</button>
+        <button class="button" onclick="checkAnswer('c')">C) พิม</button>
+        <button class="button" onclick="checkAnswer('d')">D) ภีม</button>
+        <p id="result"></p>
+    </div>
+
+    <div class="quiz-container">
+        <h1></h1>
+        <p id="question">PMO ย่อมาจากอะไร ?</p>
+        <button class="button" onclick="checkAnswer2('a')">A) Project Monitoring Office</button>
+        <button class="button" onclick="checkAnswer2('b')">B) Project Management Office</button>
+        <button class="button" onclick="checkAnswer2('c')">C) Project Manager Office</button>
+        <button class="button" onclick="checkAnswer2('d')">D) ไม่มีข้อถูก</button>
+        <p id="result2"></p>
+    </div>
+
+    <p class="showScore" id="result3"></p>
+
+</body>
+
+</html>
